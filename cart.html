@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Корзина</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ваша корзина</h1>
+    <a href="index.html">← К каталогу</a>
+  </header>
+
+  <main id="cart-items">
+    <p>Загрузка...</p>
+  </main>
+
+  <footer>
+    <button onclick="clearCart()">Очистить корзину</button>
+    <a href="checkout.html" class="btn-checkout">Оформить заказ</a>
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script>
+    displayCart();
+  </script>
+</body>
+</html>
